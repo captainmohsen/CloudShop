@@ -1,0 +1,231 @@
+#logo_image {
+    height: 70px;
+    margin-top: 40px;
+    float: left;
+    margin-right: 3px;
+}
+
+.flag_image {
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 7px;
+}
+
+#logo_text {
+    margin-top: 65px;
+    color: crimson;
+}
+
+#flag_text {
+    margin-top: 25px;
+    padding-right: 100px;
+}
+
+#flag_text2 {
+    margin-top: 38px;
+}
+
+#flag_text3 {
+    margin-top: 40px;
+}
+
+#call {
+    height: 100px;
+    margin-top: 15px;
+}
+
+#email {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+/* 
+#header {
+    height: 170px;
+    background-color: aqua;
+} */
+
+
+/* #logo {
+    height: 170px;
+    background-color: aqua; 
+} */
+
+
+/* #tel {
+    height: 170px;
+    background-color: blueviolet;
+} */
+
+
+/* #call {
+    height: 170px;
+    background-color: blue;
+} */
+
+#scroll {
+    height: 55px;
+    background-color: black;
+    padding: 5px;
+    font-size: 1.8em;
+    color: #FFD302;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 4px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#sidbar {
+    height: 540px;
+    /* background-color: green; */
+}
+
+#rates {
+    height: 540px;
+    /* background-color: cornflowerblue; */
+}
+
+#ip {
+    height: 540px;
+    /* background-color: darkgoldenrod; */
+}
+
+#visa {
+    height: 135px;
+    float: left;
+    /* background-color: darkgreen; */
+}
+
+#visa_image {
+    position: absolute;
+    margin-right: 20px;
+}
+
+#address {
+    height: 135px;
+    border-radius: 45px;
+    background: black;
+    padding: 15px;
+    border: 25px;
+    /* background-color: greenyellow; */
+    /* margin-right: 1px; */
+    border-bottom: 5px;
+}
+
+#address_text {
+    color: #FFD302;
+    font-family: "Comic sans MS";
+    font-size: 12.4px;
+}
+
+#term_service {
+    height: 135px;
+    border-radius: 45px;
+    background: black;
+    text-align: left;
+    padding: 15px;
+    /* margin-left: 1px; */
+    /* background-color: grey; */
+    border-bottom: 5px;
+}
+
+#term_service_text {
+    color: #FFD302;
+    font-size: 12px;
+    font-family: "Comic sans MS";
+}
+
+#term_service_partial_text {
+    color: red;
+}
+
+#ico {
+    height: 130px;
+    /* background-color: green; */
+}
+
+#header-btn {
+    padding: 2px 12px;
+    border: 1 none;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.sidbar_button {
+    height: 90px;
+    background-color: black;
+    border: none;
+    color: #FFD302;
+    /* padding: 10px 20px; */
+    text-align: left;
+    text-decoration: none;
+    /* display: inline-block; */
+    cursor: pointer;
+    border-radius: 30px/34px;
+    margin-top: 15px;
+    font-size: 11px;
+    padding-right: 64px;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    float: left;
+    padding-left: 0px;
+    white-space: nowrap;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.sidbar_button img {
+    vertical-align: left;
+}
+
+#sidbar_text {
+    text-align: center;
+    color: red;
+}
+
+#middle_sidbar_text {
+    color: #F7F7F7;
+}
+
+.login_image {
+    float: left;
+    height: 88px;
+    width: 93px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.car_btn {
+    width: 200px;
+    height: 70px;
+    padding: 2px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: black;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.car_btn:hover {
+    background-color: #F7F7F7;
+}
+
+.car_btn img {
+    float: left;
+    height: 75px;
+    width: 89px;
+}

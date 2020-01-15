@@ -1,0 +1,256 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cloud phone shop</title>
+    <link rel="shortcut icon" href="/static/img/nlogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="static/js/utils.js"></script>
+    <script src="https://static.pushe.co/pusheweb.js"></script>
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "c4dddf18-54b5-4766-b719-6f33c7ebdcdb";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-4" id="logo">
+
+                <img src="static/img/nlogo.png" id="logo_image" alt="logo image">
+                <h2 id="logo_text">CLOUD PHONE SHOP</h2>
+
+
+            </div>
+            <div class="col-md-4 col-sm-4" id="tel">
+                <img src="static/img/in.svg" class="flag_image" alt="india flag">
+                <img src="static/img/pk.svg" class="flag_image" alt="flag img">
+                <p id="flag_text"><b>Tel:</b> </p>
+                <img src="static/img/gb.svg" class="flag_image" alt="india flag">
+                <img src="static/img/eu.svg" class="flag_image" alt="india flag">
+                <p id="flag_text2"><b>Tel: 0191 5000 504</b> </p>
+                <img src="static/img/us.svg" class="flag_image" alt="india flag">
+                <img src="static/img/ca.svg" class="flag_image" alt="india flag">
+                <p id="flag_text3"><b>Tel: 1567 244 0101</b> </p>
+
+
+
+
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <img src="static/img/call.png" id="call" alt="call image">
+                <img src="static/img/email.png" id="email" alt="call image">
+
+                <a id="header-btn" role="button" href="#mdlDemo" class="btn  btn-sm btn-warning" data-toggle="modal">free call back</a>
+
+                <a id="header-btn" role="button" href="#" data-toggle="modal" class="btn btn-pill btn-sm btn-warning" data-target="#myModal">email us</a>
+
+
+            </div>
+
+        </div>
+        <div id="scroll" class="row">
+            <div class="col-md-12 col-sm-4">
+                <marquee id="textme" behavior="scroll" direction="left"> </marquee>
+                <script>
+                    var greetings = ["cloud Phone Shop text 111",
+                        "cloud phone shop text 2222",
+                        "our cloud phone shop ",
+                        "our best phone shop",
+                    ];
+                    var greeting_id = Math.floor(Math.random() * greetings.length);
+                    document.getElementById('textme').textContent = greetings[greeting_id];
+
+                    setInterval(function() {
+                        var greeting_id = Math.floor(Math.random() * greetings.length);
+                        document.getElementById('textme').textContent = greetings[greeting_id];
+                    }, 20000);
+                </script>
+            </div>
+
+        </div>
+        <div class="row">
+            <div id="sidbar" class="col-md-3">
+
+                <a role="button" href="/login" class="sidbar_button">
+                    <img src="static/img/login.png" class="login_image"><strong>log on or log out </br><span id="middle_sidbar_text">reset password</br>new user,sign in</span></br><span id="sidbar_text">it's free to join--></span></strong>
+
+                </a>
+
+                <a role="button" href="/payment" class="sidbar_button">
+                    <img src="static/img/payment.png" class="login_image"><strong>control your details </br><span id="middle_sidbar_text">your payment method</br>view & print your bill</span></br><span id="sidbar_text">div in --></span></strong>
+
+                </a>
+
+                <a role="button" href="/gadget" class="sidbar_button">
+                    <img src="static/img/gadget.png" class="login_image"><strong>welcome to our gadget </br><span id="middle_sidbar_text">shop, download manual</br>& mange hardware</span></br><span id="sidbar_text">open now come an in--></span></strong>
+
+                </a>
+
+                <a role="button" href="/information" class="sidbar_button">
+                    <img src="static/img/information.png" class="login_image"><strong>important information </br><span id="middle_sidbar_text">for you & we encourage</br>you to read now-</span></br><span id="sidbar_text">prevent confusion--></span></strong>
+
+                </a>
+
+                <a role="button" href="/ask_question" class="sidbar_button">
+                    <img src="static/img/ask.png" class="login_image"><strong>ask us a question,</br><span id="middle_sidbar_text">feedback or shape</br>your know-how?</span></br><span id="sidbar_text">go for it--></span></strong>
+
+                </a>
+
+
+
+            </div>
+            <div id="rates" class="col-md-3">
+
+            </div>
+            <div id="ip" class="col-md-6"></div>
+
+        </div>
+        <div class="row" id="footer">
+            <div id="visa" class="col-md-2">
+                <img src="static/img/visa.png" id="visa_image" alt="visa image">
+            </div>
+            <div class="col-md-4" id="address">
+                <p id="address_text">
+                    This website Cloud Phone Shop is a trading owned and<br/> operated by Samir Kundu Ltd.Registered in England <br/> and Wales #09051111.<br/> 3 Beechwood Terrace.Sunderland SR2 7Ly,<br/> United Kingdom VAT GB #000 0000 00</br>
+                </p>
+            </div>
+            <div class="col-md-5 col-sm-6" id="term_service">
+                <p id="term_service_text">
+                    <span id="term_service_partial_text">Your consent-</span>welcom to Cloud Phone Shop,by continuing to use our site<br/> your agree and consent to our use cookies and similar technologies why <br/> we use cookies.We use "cookies" and
+                    other tracking technologies which<br/> record information and data automatically to enhance your browsing<br/> experience for the purpose.we describe our policy details in-</br>
+                    <a href="/login">"Term of Serice and Privacy Policy.>>>"</a>
+                </p>
+            </div>
+            <div class="col-md-1" id="ico">
+                <img src="static/img/ico.png" id="visa_image" alt="visa image">
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- Modal -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="exampleModalLabel">Write to us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="email1">Email address</label>
+                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <a href="#" data-toggle="popover" title="Privacy Policy" data-content="Your information is safe with us."><small>Click to toggle popover</small></a>
+
+                            <script>
+                                $(document).ready(function() {
+                                    $(function() {
+                                        $('[data-toggle="popover"]').popover()
+                                    });
+
+                                    $(function() {
+                                        $('[data-toggle="tooltip"]').tooltip()
+                                    })
+                                });
+                            </script>
+
+                        </div>
+                        <div class="form-group">
+                            <label data-error="wrong" data-success="right" for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="md-form">
+                            <i class="fas fa-pencil prefix grey-text"></i>
+                            <textarea type="text" id="form8" class="md-textarea form-control" rows="7"></textarea>
+                            <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-top-0 d-flex justify-content-center">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" data-dismiss="modal" title="Don't forget to submit your data before closing the modal.">
+                  Close 
+                </button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <form class="modal fade" id="mdlDemo" tabindex="-1" role="dialog" aria-labelledby="btnDemo" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Enter SIP Credenitals</h4>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"></span></button>
+
+                </div>
+                <div class="modal-body">
+                    <p>This is SIP credentials for your account. </p>
+                    <div class="form-group">
+                        <label>Display Name:</label>
+                        <input type="text" name="Display" class="form-control" value="Cloud Shop Customer" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Sip User:</label>
+                                <input type="text" name="User" class="form-control" value="441157170000" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>WS URL:</label>
+                                <input type="text" name="WSServer" class="form-control" value="i.e. wss://sip.cloud_shop.com:5060/" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Sip Pass:</label>
+                                <input type="password" name="Pass" class="form-control" value="i.e. supaSekret!" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Sip Realm:</label>
+                                <input type="text" name="Realm" class="form-control" value="441157170000" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnConfig">Call</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
